@@ -23,7 +23,7 @@
 
   <PropertyGroup>
     <GenerateProgramFile>false</GenerateProgramFile>
-    <AssemblyName>SimpleMeasure.IntegrationTests</AssemblyName>
+    <AssemblyName>SimpleMeasure.IntegrationTests.UseAttribute</AssemblyName>
   </PropertyGroup>
 
 </Project>

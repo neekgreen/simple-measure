@@ -1,4 +1,4 @@
-﻿namespace SimpleMeasure.IntegrationTests
+﻿namespace SimpleMeasure.IntegrationTests.UseAttribute
 {
     using System;
     using System.Collections.Generic;

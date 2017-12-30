@@ -6,8 +6,7 @@ namespace Microsoft.Extensions.DependencyInjection
     {
         public static IMvcBuilder UseBenchmark(this IMvcBuilder builder)
         {
-            return 
-                builder.AddMvcOptions(t => t.Filters.Add(typeof(BenchmarkAttribute)));
+            return builder.AddMvcOptions(t => t.Filters.Add(typeof(BenchmarkAttribute)));
         }
     }
 }
