@@ -9,4 +9,18 @@
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.0.0" />
   </ItemGroup>
 
+  <PropertyGroup>
+    <Description>A quick and dirty benchmarking action filter for .NET Core.</Description>
+    <Copyright>Copyright Nicholas Myers</Copyright>
+    <Authors>Nicholas Myers</Authors>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <AssemblyName>SimpleMeasure</AssemblyName>
+    <PackageId>SimpleMeasure</PackageId>
+    <PackageTags>benchmark measure execution stopwatch</PackageTags>
+    <PackageProjectUrl>https://github.com/neekgreen/simple-measure</PackageProjectUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>git://github.com/neekgreen/simple-measure</RepositoryUrl>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
 </Project>
