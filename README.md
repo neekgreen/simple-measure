@@ -1,7 +1,8 @@
 # SimpleMeasure
-A quick and dirty benchmarking action filter for .NET Core 1.0 +!
+A quick and dirty benchmarking action filter for .NET Core!
 
 [![Build status](https://ci.appveyor.com/api/projects/status/e6fsyn9cuia7rd9o?svg=true)](https://ci.appveyor.com/project/neekgreen/simplemeasure)
+[![something](https://img.shields.io/badge/.netstandard-2.0-blue.svg)](https://img.shields.io/badge/.netstandard-1.3-blue.svg)
 [![NuGet](https://img.shields.io/nuget/v/simplemeasure.svg)](https://www.nuget.org/packages/simplemeasure) 
 [![NuGet](https://img.shields.io/nuget/dt/simplemeasure.svg)](https://www.nuget.org/packages/simplemeasure) 
 
@@ -70,7 +71,3 @@ public void ConfigureServices(IServiceCollection services)
     services.AddMvc().UseBenchmark();
 }
 ```
-
-<hr>
-
-Happy Benchmarking!
